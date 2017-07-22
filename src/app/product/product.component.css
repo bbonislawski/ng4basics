@@ -1,0 +1,8 @@
+.product {
+  display: block;
+  background-color: #eee;
+  padding: 20px;
+}
+.special {
+  color: green;
+}

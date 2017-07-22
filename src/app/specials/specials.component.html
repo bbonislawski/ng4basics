@@ -1,0 +1,8 @@
+<div class="products">
+  <h3>Oferty specjalne</h3>
+  <div class="row">
+    <div class="col-4" *ngFor="let prod of products">
+      <app-product [item]="prod"></app-product>
+    </div>
+  </div>
+</div>
